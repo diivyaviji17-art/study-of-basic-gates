@@ -67,17 +67,32 @@ Y= A⊕B
 Program for logic gates and verify its truth table in quartus using Verilog programming
 
  Developed by:R.Divyadharshini RegisterNumber:212225230062  
+ ```
+module exp1(a,b,c,d,e,x,y,z);
+input a,b;
+output c,d,e,x,y,z;
+and (c,a,b);
+or(d,a,b);
+xor(e,a,b);
+nand(x,a,b);
+nor(y,a,b);
+xnor(z,a,b);
+endmodule
+```
  
 **Logic symbol & Truthtable**
 
 
-<img width="722" height="687" alt="WhatsApp Image 2026-05-21 at 2 42 11 PM" src="https://github.com/user-attachments/assets/0feac00a-af1c-4514-a3d5-44dca3a4c7eb" />
+<img width="488" height="919" alt="Screenshot 2026-05-28 121247" src="https://github.com/user-attachments/assets/db696ffe-073c-4951-8de8-1d5956d66b34" />
+
 
 **RTL realization Output:** 
-<img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/e6dd7373-55be-4667-892d-6e958aed8ed0" />
+<img width="1083" height="557" alt="Screenshot 2026-05-28 121024" src="https://github.com/user-attachments/assets/68513cfc-67a1-4bbe-8a52-18fd9119e773" />
+
 
 **RTL**
-<img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/3c6e011d-5c14-40c5-861f-2b6a43f23f7c" />
+<img width="1058" height="565" alt="image" src="https://github.com/user-attachments/assets/fe894211-367c-428b-b7b3-e5954d53a8c7" />
+
 
 
 **Result:**
